@@ -1,3 +1,9 @@
+header {
+    font-size: 40px;
+    margin: 10px;
+    font-weight: bold;
+}
+
 
 #banner {
     width: 100%;
@@ -50,5 +56,18 @@ ul {
 
 .imgbeneficio {
     width: 50%;
+}
+
+footer {
+    background: url(imagens/bg.jpg);
+    text-align: center;
+    padding: 40px 0 ;
+}
+
+.copy {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+
 }
 
