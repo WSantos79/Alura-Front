@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 header {
     background: #BBBBBB;  
     padding: 20px 0;  
@@ -99,12 +102,14 @@ footer {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+    
 }
 
+/* CSS do contato -------------------------------------------   */
+
 form {
-    margin: 40px 0;
+    margin: 40px auto;   /*  MODIFIQUEI */
+    width: 940px;    
 }
 
 form label, form legend{
@@ -143,10 +148,9 @@ form label, form legend{
     margin: 20px 0;    
 }
 
-table {
-    margin: 30px 0;
-    
-}
+table {         /*  MODIFIQUEI */
+    margin: 30px 20%;  
+}          
 
 
 thead {    
@@ -158,4 +162,97 @@ thead {
 td, th {
     padding: 10px 10px; 
     border: solid black 1px;
+}
+
+/* CSS do index  -----------------------------------------------------*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imgutensilio {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.div-map {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa{
+    padding: 3em 0; 
+    background: linear-gradient(#FEFEFE, #888888);    
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficio {
+    padding: 3m 0;
+    background: #888888;    
+}
+
+.div-beneficio {
+    width: 640px ;
+    margin: 0 auto; 
+}
+
+.lista-beneficio {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;    
+}
+
+.itens::before {
+    content: "\2605  ";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imgbeneficio {
+    width: 60%;    
+}
+
+.video {
+    width: 560px;    
+    padding: 1em;
+    margin: 0 auto;
 }
