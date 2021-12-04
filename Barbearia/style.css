@@ -3,11 +3,10 @@ header {
     padding: 20px 0;  
 }
 
-.caixa {
+.divCaixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
-
 }
 
 nav {
@@ -18,8 +17,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
-      
+    margin: 0 0 0 15px;      
 }
 
 nav a {
@@ -31,8 +29,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #df8611;
-    text-decoration:overline underline;
+    color: #ff6600;
+    text-decoration: overline underline;
 }
 
 .produtos {
@@ -98,4 +96,66 @@ footer {
     color: #ffffff; 
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.input-padrao, .enviar {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;     
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer ;
+}
+
+.enviar:hover {
+    background: #df8611;
+    transform: scale(1.2);
+}
+
+.espaco {
+    margin: 20px 0;    
+}
+
+table {
+    margin: 30px 0;
+    
+}
+
+
+thead {    
+    background: hsl(0, 1%, 61%);
+    color: white;
+    font-weight: bold;    
+}
+
+td, th {
+    padding: 10px 10px; 
+    border: solid black 1px;
 }
