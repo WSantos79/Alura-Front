@@ -256,3 +256,11 @@ td, th {
     padding: 1em;
     margin: 0 auto;
 }
+
+main > p {    
+    width: 940px;
+    margin: 2em auto;
+    color: red;
+    font-weight: bold;
+}
+

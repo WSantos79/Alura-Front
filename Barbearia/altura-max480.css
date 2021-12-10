@@ -1,0 +1,73 @@
+main > p, .principal, .div-map, .div-beneficio, .video {
+    width: 80%;    
+    line-height: 30px;
+}
+
+.divCaixa {
+    width: 100%;
+}
+
+.imgbeneficio , .lista-beneficio {
+    width: 100%;
+}
+
+nav {
+    position: static;   
+    text-align: center; 
+    width: 100%;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div-beneficio ul {
+    margin-bottom: 20px; 
+    
+}
+
+/* PRODUTOS---------------------------------------------------------------  */
+
+.produtos {
+    width: 100%;
+    
+}
+
+.produtos li {
+    display: block;
+    width: 80%;
+    margin: 0 auto 20px;
+
+}
+
+/* Contato---------------------------------------------------------------  */
+
+ form {
+     width: auto;
+     text-align: center;
+ }
+
+
+ .input-padrao, .enviar {
+    width: 70%;
+    margin: 20px auto;    
+ }
+
+ form legend {     
+     margin: 0 auto 10px;
+
+ }
+
+ table {
+     margin: 20px auto;
+ }
+
+ fieldset label {
+    margin: 0 0 10px 30%;
+    text-align:left;
+
+ }
